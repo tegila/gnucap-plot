@@ -1,0 +1,8 @@
+Circuito teste
+V1 1 0 AC 220 SIN amp=220 freq=60
+R1 1 2 1k
+R2 2 0 2k
+
+.print tran v(nodes)
+.tran 0 16m 100u
+.end
